@@ -1,0 +1,31 @@
+@import 'Colors.scss'; 
+
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background: $base-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+    //margin-top: 200px;
+  }
+  
+  .socialMedia svg {
+    color: $text-color;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: $text-color;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .footer svg {
+      font-size: 50px;
+    }
+  }

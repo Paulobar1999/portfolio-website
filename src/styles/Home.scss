@@ -1,0 +1,130 @@
+@import 'Colors.scss'; 
+.home {
+    width: 100%;
+    align-items: center;
+    color: $base-color;
+
+  }
+  .head {
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:  $base-color;
+    padding-bottom: 50px;
+    padding-top: 12px;
+  }
+
+  .about {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:$text-color;
+
+  }
+  .about-text{
+    margin-bottom: 75px;
+  }
+
+  .img{
+    max-width: 50%;
+    object-fit: contain;
+    border-radius: 50%;    
+
+    //animation: rotate 1s linear infinite;     
+    //animation: rainbow 10s linear infinite;     
+    background-image: url('../Images/Assets/BuldgeGrid.png');
+    background-size: cover;
+  }
+  
+  .about h2 {
+    font-size: 40px;
+    width: auto;
+    height: 10px;
+  }
+  .list h1 {
+    color: $text-highlight-color;
+  }
+  
+  .about .prompt {
+    width: auto;
+    font-size: 30px;
+  }
+  .prompt svg {
+    font-size: 60px;
+    color: $text-color;
+  }
+  
+  .skills {
+    font-size: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: $background-color;
+    color:$text-color-dark;
+
+  }
+
+
+  .skills .list {
+    list-style: none; 
+    width: 70%;
+    text-align: left;
+  }
+  .item {
+    margin-bottom: 60px;
+  }
+
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .head {
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+
+      }
+
+
+  
+    .about .prompt {
+      font-size: 20px;
+      width:auto;
+      padding-bottom: 20px;
+    }
+  
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .headline {
+      font-size: 30px;
+    }
+  }
+
+  @keyframes rotate{
+    //to{ transform: rotate(360deg); }
+  }
+  @keyframes rainbow{
+    0%{ background-color:red }
+    25%{ background-color: yellow }
+    50%{ background-color: green; }
+    75%{ background-color: blue; }
+    100%{ background-color: red; }
+  }
