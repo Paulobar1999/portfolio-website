@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/portfolio-website/static/css/main.bf80accf.css",
+    "main.js": "/portfolio-website/static/js/main.c06a1054.js",
+    "static/js/787.53adf551.chunk.js": "/portfolio-website/static/js/787.53adf551.chunk.js",
+    "static/media/LinkedinIconNoBg.png": "/portfolio-website/static/media/LinkedinIconNoBg.7b35b7def8cfb91d5e42.png",
+    "static/media/Arg.png": "/portfolio-website/static/media/Arg.da39dbe736b52cc90c28.png",
+    "static/media/BuldgeGrid.png": "/portfolio-website/static/media/BuldgeGrid.cb9411935183db9144de.png",
+    "static/media/SA.png": "/portfolio-website/static/media/SA.6b2deaa6901a1d11bdf4.png",
+    "static/media/MR.png": "/portfolio-website/static/media/MR.49a5e72adccf35f5bc2d.png",
+    "static/media/RM.png": "/portfolio-website/static/media/RM.d6e863e1450a7db6aa35.png",
+    "static/media/RR.png": "/portfolio-website/static/media/RR.af499394c6e7338540b9.png",
+    "static/media/CMP.png": "/portfolio-website/static/media/CMP.d47cb3f4f89ac38983d4.png",
+    "static/media/SOAG.png": "/portfolio-website/static/media/SOAG.43a9bb7be052aaada173.png",
+    "static/media/FP.png": "/portfolio-website/static/media/FP.153130902f91e313c26a.png",
+    "static/media/FAE.png": "/portfolio-website/static/media/FAE.edf2c258199c647b327d.png",
+    "static/media/Swam.png": "/portfolio-website/static/media/Swam.9522372d4394a42f717e.png",
+    "index.html": "/portfolio-website/index.html",
+    "main.bf80accf.css.map": "/portfolio-website/static/css/main.bf80accf.css.map",
+    "main.c06a1054.js.map": "/portfolio-website/static/js/main.c06a1054.js.map",
+    "787.53adf551.chunk.js.map": "/portfolio-website/static/js/787.53adf551.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf80accf.css",
+    "static/js/main.c06a1054.js"
+  ]
+}
